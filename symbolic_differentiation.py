@@ -15,7 +15,7 @@ class expr:
                 left = self.left.toString()
                 right = self.right.toString()
                 opr = self.data
-                return "(" + left + " " + opr + " " + right + ")"
+                return  "(" + left + " " + opr + " " + right + ")"
             else:
                 return self.data
     def prettyprint(self):
